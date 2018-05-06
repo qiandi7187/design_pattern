@@ -12,6 +12,7 @@ import java.util.Date;
  */
 public class TimerProxy implements Moveable{
     private Moveable runnable;
+    private SimpleDateFormat format =  new SimpleDateFormat("YYYY-MM-dd HH:MM:ss");
 
     public TimerProxy(Moveable runnable) {
         this.runnable = runnable;
@@ -20,14 +21,12 @@ public class TimerProxy implements Moveable{
 
     @Override
     public void move() {
-        SimpleDateFormat format =  new SimpleDateFormat("YYYY-MM-dd HH:MM:ss");
         System.out.println(format.format(new Date()));
         runnable.move();
     }
 
     @Override
     public void stop() {
-        SimpleDateFormat format =  new SimpleDateFormat("YYYY-MM-dd HH:MM:ss");
         System.out.println(format.format(new Date()));
         runnable.stop();
     }
