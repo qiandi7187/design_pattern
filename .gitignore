@@ -1,0 +1,18 @@
+dea/
+/.idea
+*/.settings/*
+/.settings
+.iml
+*.iml
+.classpath
+*.class
+**/.settings
+**/.classpath
+**/.project
+**/target
+**/out
+
+# Package Files #
+*.jar
+*.war
+*.ear
