@@ -4,12 +4,12 @@ public class FruitMilkFactory implements DrinkFactory{
 
 
     @Override
-    public Drink appleDrinkCreate() {
+    public Drink appleDrinkCreator() {
         return new AppleMilk();
     }
 
     @Override
-    public Drink pearDrinkCreate() {
+    public Drink pearDrinkCreator() {
         return new PearMilk();
     }
 }
