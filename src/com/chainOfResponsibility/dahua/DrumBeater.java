@@ -3,10 +3,10 @@ package com.chainOfResponsibility.dahua;
 import java.util.Random;
 
 /**
- * 本例采用递归形式
+ * 本例采用递归形式  handle 方法中包含对责任链逻辑的处理 和 下一个 对象的传递
  * 还有一种形式 采用list存储chain
  *
- * 责任链模式 包含 抽象类 和实现    handle 方法中包含对责任链逻辑的处理 和 下一个 对象的传递
+ * 责任链模式 包含 抽象类 和实现
  */
 public class DrumBeater {
 
