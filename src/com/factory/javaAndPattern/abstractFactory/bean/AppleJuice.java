@@ -1,8 +1,8 @@
-package com.factory.javaAndPattern.abstractFactory;
+package com.factory.javaAndPattern.abstractFactory.bean;
 
-import com.factory.javaAndPattern.Apple;
+import com.factory.javaAndPattern.abstractFactory.drinkInterfaces.Juice;
 
-public class AppleJuice  implements Juice{
+public class AppleJuice  implements Juice {
 
     @Override
     public void juice() {

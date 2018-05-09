@@ -1,5 +1,12 @@
 package com.factory.javaAndPattern.abstractFactory;
 
+import com.factory.javaAndPattern.abstractFactory.bean.AppleMilk;
+import com.factory.javaAndPattern.abstractFactory.bean.PearJuice;
+import com.factory.javaAndPattern.abstractFactory.drinkInterfaces.Drink;
+import com.factory.javaAndPattern.abstractFactory.factory.DrinkFactory;
+import com.factory.javaAndPattern.abstractFactory.factory.FruitMilkFactory;
+import com.factory.javaAndPattern.abstractFactory.factory.JuiceFactory;
+
 /**
  * 抽象工厂 用于产品族  继承工厂接口
  * 本例借鉴 Java与模式 一书

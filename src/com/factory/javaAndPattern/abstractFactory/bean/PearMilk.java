@@ -1,6 +1,8 @@
-package com.factory.javaAndPattern.abstractFactory;
+package com.factory.javaAndPattern.abstractFactory.bean;
 
-public class PearMilk implements FruitMilk{
+import com.factory.javaAndPattern.abstractFactory.drinkInterfaces.FruitMilk;
+
+public class PearMilk implements FruitMilk {
 
     @Override
     public void mix() {
