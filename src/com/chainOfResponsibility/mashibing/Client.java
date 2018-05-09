@@ -1,5 +1,9 @@
 package com.chainOfResponsibility.mashibing;
 
+/**
+ * 实现马士兵设计模式教学中的责任链
+ * 实现采用list逐一调用的方式  该方式教击鼓传花的例子更好 耦合度进一步降低
+ */
 public class Client {
 
     public static void main(String[] args) {
