@@ -27,10 +27,11 @@ public class Client {
         drink.drink();
 
 
-        System.out.println("--------想调用子类专有方法还需要强转-----------");
+        System.out.println("#################想调用子类专有方法还需要强转#################");
         PearJuice pearJuice =  (PearJuice)new JuiceFactory().pearDrinkCreator();
         pearJuice.juice();
         pearJuice.drink();
+        System.out.println("-------------------");
         AppleMilk appleMilk =  (AppleMilk)new FruitMilkFactory().appleDrinkCreator();
         appleMilk.mix();
         appleMilk.drink();
