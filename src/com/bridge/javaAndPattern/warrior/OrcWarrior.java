@@ -1,4 +1,4 @@
-package com.bridge.javaAndPattern;
+package com.bridge.javaAndPattern.warrior;
 
 /**
  * 人族战士
@@ -10,7 +10,7 @@ public class OrcWarrior extends Warrior{
     }
 
     @Override
-    protected void attack(Warrior enemy) {
+    public void attack(Warrior enemy) {
         System.out.println("兽族战士："+this.name);
         this.weapen.isUsedToAttack(enemy);
     }

@@ -1,6 +1,12 @@
 package com.bridge.javaAndPattern;
 
 
+import com.bridge.javaAndPattern.warrior.HumanWarrior;
+import com.bridge.javaAndPattern.warrior.OrcWarrior;
+import com.bridge.javaAndPattern.warrior.Warrior;
+import com.bridge.javaAndPattern.weapen.Axes;
+import com.bridge.javaAndPattern.weapen.Sword;
+
 /**
  * 桥接模式
  * 含有两层结构

@@ -1,4 +1,7 @@
-package com.bridge.javaAndPattern;
+package com.bridge.javaAndPattern.weapen;
+
+
+import com.bridge.javaAndPattern.warrior.Warrior;
 
 public class Sword implements Weapen{
 
