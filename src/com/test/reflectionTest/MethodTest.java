@@ -1,4 +1,4 @@
-package com.Refelction.myTest;
+package com.test.reflectionTest;
 
 import com.proxy.mashibing.Car;
 import com.proxy.mashibing.Moveable;

@@ -1,6 +1,4 @@
-package com.enumTest;
-
-import java.util.concurrent.TimeUnit;
+package com.test.enumTest;
 
 public enum MyTimeUnit {
 

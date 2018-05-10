@@ -1,4 +1,4 @@
-package com.enumTest;
+package com.test.enumTest;
 
 public class enumTest {
 
