@@ -11,9 +11,16 @@ public abstract class  OrderDecorator  implements OrderComponent{
     }
 
     @Override
-    public void deal(Order order){
+    public final void  deal(Order order){
+        beforeDealHanlde(order);
         orderComponent.deal(order);
+        afterDealHanlde(order);
     }
+
+    //子类实现一下两种即可
+    public abstract void beforeDealHanlde(Order order);
+
+    public abstract void afterDealHanlde(Order order);
 
 
 }
