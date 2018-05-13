@@ -11,12 +11,12 @@ public class OrderBonusDecorator extends OrderDecorator{
 
 
     @Override
-    public void beforeDealHanlde(Order order) {
+    public void beforeDealHanlder(Order order) {
 
     }
 
     @Override
-    public void afterDealHanlde(Order order) {
+    public void afterDealHanlder(Order order) {
         System.out.println("装潢者：bonus 处理红包");
         if(order.getBonus()==null){
             return ;
