@@ -11,12 +11,12 @@ public class OrderPointsDecorator extends OrderDecorator{
 
 
     @Override
-    public void beforeDealHanlder(Order order) {
+    public void beforeDealHandler(Order order) {
 
     }
 
     @Override
-    public void afterDealHanlder(Order order) {
+    public void afterDealHandler(Order order) {
         System.out.println("装潢者：points  处理积分");
         if(order.getPayPoints()==null){
             return ;
