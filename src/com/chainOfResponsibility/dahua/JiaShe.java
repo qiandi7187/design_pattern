@@ -2,9 +2,6 @@ package com.chainOfResponsibility.dahua;
 
 public class JiaShe extends Player{
 
-    public JiaShe() {
-        super();
-    }
 
     public JiaShe(Player player) {
         super(player);

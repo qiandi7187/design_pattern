@@ -8,6 +8,8 @@ public class enumTest {
         System.out.println(MySimpleColorEnum.GREEN);
         System.out.println(MySimpleColorEnum.RED);
 
+        System.out.println(MySimpleColorEnum.values()[0]);
+
         System.out.println("----------------------------------");
         System.out.println(MyTimeUnit.MINUTES);
         System.out.println(MyTimeUnit.HOUR);

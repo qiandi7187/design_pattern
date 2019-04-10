@@ -22,10 +22,10 @@ package com.chainOfResponsibility.dahua;
 
 
     //此方法实现递归 直至责任链结束
-    public void next(int random){
+    public void execute(int random){
         handle();
         if(nextPlayer!=null&&count++!=random){
-            nextPlayer.next(random);
+            nextPlayer.execute(random);
         }
 
     }

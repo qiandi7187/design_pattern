@@ -6,6 +6,8 @@ package com.chainOfResponsibility.mashibing;
 public class SymbolFilter implements StringFilter{
 
 
+
+
     @Override
     public String doFilter(String str) {
         System.out.println("符号过滤："+str);

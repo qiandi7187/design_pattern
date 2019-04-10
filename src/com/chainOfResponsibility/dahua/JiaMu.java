@@ -2,9 +2,6 @@ package com.chainOfResponsibility.dahua;
 
 public class JiaMu extends Player{
 
-    public JiaMu() {
-        super();
-    }
 
     public JiaMu(Player player) {
         super(player);

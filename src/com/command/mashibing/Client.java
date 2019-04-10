@@ -13,7 +13,7 @@ public class Client {
         invoker.setCommand(new ShowCurrentCommand());
         invoker.execute();
         System.out.println("---------------------------");
-        invoker.addBatch(new ShowCurrentCommand());
+        invoker.addBatch( ShowCurrentCommand ::new);
         invoker.addBatch(new ShowProjectPathCommand());
         invoker.executeBatch();
     }

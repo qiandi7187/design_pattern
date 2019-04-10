@@ -2,9 +2,6 @@ package com.chainOfResponsibility.dahua;
 
 public class JiaZheng extends Player{
 
-    public JiaZheng() {
-        super();
-    }
 
     public JiaZheng(Player player) {
         super(player);
