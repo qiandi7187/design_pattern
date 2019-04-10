@@ -10,11 +10,12 @@ public class Client {
     public static void main(String[] args) {
 
         Invoker invoker = new Invoker();
-        invoker.setCommand(new ShowCurrentCommand());
+        invoker.setCommand(new ShowCurrentCommand(new Receiver("接收者1")));
         invoker.execute();
         System.out.println("---------------------------");
-        invoker.addBatch( ShowCurrentCommand ::new);
-        invoker.addBatch(new ShowProjectPathCommand());
+        Receiver receiver = new Receiver("接收者2");
+        invoker.addBatch(new ShowCurrentCommand(receiver));
+        invoker.addBatch(new ShowProjectPathCommand(receiver));
         invoker.executeBatch();
     }
 
