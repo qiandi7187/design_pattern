@@ -41,6 +41,31 @@ public class A {
         changeStr(s3);
         System.out.println(s3);
 
+        Integer i = 0;
+        ChangeA(i);
+        System.out.println(i);
+
+
+        Long l1 = new Long(1234567890);
+        Long l2 = new Long(1234567890);
+        System.out.println(l1 == l2);
+
+        System.out.println(l1.equals(l2));
+
+        System.out.println(l1.longValue()==l2.longValue());
+
+        Long l3 = new Long(100);
+        Long l4 = new Long(100);
+        System.out.println(l3 == l4);
+
+        System.out.println(l3.equals(l4));
+
+        System.out.println(l3.longValue()==l4.longValue());
+
+
+
     }
+
+    private static void ChangeA(Integer i){i++;}
 
 }

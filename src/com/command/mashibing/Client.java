@@ -2,7 +2,7 @@ package com.command.mashibing;
 
 
 /**
- * 命令模式可以对不同的recevier进行操作，本例暂不实现
+ * 命令模式本质是将方法升级为对象操作  以便对多个功能进行一系列处理和封装
  *
  */
 public class Client {
